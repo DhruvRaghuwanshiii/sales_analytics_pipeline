@@ -1,0 +1,5 @@
+transaction_id,customer_id,date,product_category,amount,quantity,status,rejection_reason
+TXN-02,CUST-02,2024-01-01,Tech,-50.0,1,Completed,"1 validation error for TransactionRecord
+amount
+  Input should be greater than 0 [type=greater_than, input_value=-50.0, input_type=float]
+    For further information visit https://errors.pydantic.dev/2.14/v/greater_than"
